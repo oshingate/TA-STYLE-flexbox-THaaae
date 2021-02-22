@@ -6,3 +6,64 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dcbc9e0f57.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <h1>Alt Campus</h1>
+        <nav>
+          <a href="#">HOME</a>
+          <a class="green" href="#">GALLERY</a>
+          <a href="#">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="sec-gal container">
+      <h2>Gallery</h2>
+      <div class="images">
+        <div class="col">
+          <img src="assets/01.png" alt="1" />
+        </div>
+        <div class="col">
+          <img src="assets/02.png" alt="2" />
+        </div>
+        <div class="col">
+          <img src="assets/03.png" alt="3" />
+        </div>
+        <div class="col">
+          <img src="assets/04.png" alt="4" />
+        </div>
+        <div class="col">
+          <img src="assets/05.png" alt="5" />
+        </div>
+        <div class="col">
+          <img src="assets/06.png" alt="6" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footers container">
+        <h3>&copy; oshingate</h3>
+        <nav class="footernav">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
