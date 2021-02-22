@@ -6,3 +6,93 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dcbc9e0f57.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <h1>AltCampus</h1>
+        <nav class="header-links">
+          <a href="#"><img src="assets/icons/bell.svg" alt="bellicon" /></a>
+          <a href="#"
+            >Sarah Jane <img src="assets/icons/user.svg" alt="user"
+          /></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row flex">
+        <div class="col col1 flex-vertical">
+          <div class="otherlinks">
+            <div class="col1links firstlogo">
+              <img src="assets/icons/dashboard.svg" alt="dashboard" />
+              <h3>Dashboard</h3>
+            </div>
+            <div class="col1links active">
+              <img src="assets/icons/article.svg" alt="article" />
+              <h3>Article</h3>
+            </div>
+            <div class="col1links">
+              <img src="assets/icons/analytics.svg" alt="analytics" />
+              <h3>Analytics</h3>
+            </div>
+            <div class="col1links">
+              <img src="assets/icons/inbox.svg" alt="inbox" />
+              <h3>Inbox</h3>
+            </div>
+            <div class="col1links">
+              <img src="assets/icons/setting.svg" alt="settings" />
+              <h3>Settings</h3>
+            </div>
+          </div>
+
+          <div class="logout">
+            <div class="col1links log-out">
+              <img src="assets/icons/log-out.svg" alt="logout" />
+              <h3>Logout</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col2">
+          <img src="assets/01.png" alt="altcampus" />
+          <h3>Why are we doing AltCapmus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            itaque, dolore nostrum, cumque voluptas amet consectetur
+            consequuntur molestiae at, qui perspiciatis. Sapiente provident,
+            soluta dicta reiciendis dolorum incidunt enim labore.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            itaque, dolore nostrum, cumque voluptas amet consectetur
+            consequuntur molestiae at, qui perspiciatis. Sapiente provident,
+            soluta dicta reiciendis dolorum incidunt enim labore.
+          </p>
+          <a class="readmore" href="#">Read More</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="flex container">
+        <h3>&copy; oshingate</h3>
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
