@@ -1,0 +1,76 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>ONKAR</h1>
+      <nav class="nav">
+        <a href="#">about</a>
+        <a href="#">details</a>
+        <a href="#">contact</a>
+      </nav>
+    </header>
+
+    <div class="row1 container">
+      <article class="articlesec">
+        <div class="col">
+          <h2>Cat:my pet</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero amet
+            quibusdam, voluptatem minima accusamus quam suscipit expedita illo
+            similique aut sit sunt quod aliquid natus cupiditate. Animi, vero.
+            Doloribus, asperiores.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero amet
+            quibusdam, voluptatem minima accusamus quam suscipit expedita illo
+            similique aut sit sunt quod aliquid natus cupiditate. Animi, vero.
+            Doloribus, asperiores.
+          </p>
+        </div>
+
+        <div class="col">
+          <img src="assets/media/catSketch.jpg" alt="cat" />
+        </div>
+      </article>
+
+      <div class="gallary">
+        <img src="assets/media/lady.png" alt="" />
+        <img src="assets/media/table.png" alt="" />
+        <img src="assets/media/bulb.png" alt="" />
+
+        <img src="assets/media/lady.png" alt="" />
+        <img src="assets/media/table.png" alt="" />
+        <img src="assets/media/bulb.png" alt="" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h2>@ONKAR</h2>
+      <nav>
+        <a class="a" href="#">email</a>
+        <a class="a" href="#">email</a>
+        <a class="a" href="#">email</a>
+      </nav>
+    </footer>
+  </body>
+</html>
